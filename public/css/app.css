@@ -9,9 +9,38 @@
     --color-bs-02: '#0D2136';
 }
 
-/* Definições */
+/*? Definições */
 .text-color-main{
     color: #0A84FF;
+}
+.text-color-1{
+    color: #EAEAEA;
+}
+.text-color-2{
+    color: #D1D9E6;
+}
+.btn-main{
+    background-color: #0A84FF;
+    color: #EAEAEA;
+}
+.btn-main:hover,
+.btn-main:focus-visible,
+.btn-main:active{
+    background-color: #0769ca !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-color: transparent !important;
+}
+.btn-main:focus-visible,
+.btn-main:active{
+    background-color: #033970 !important;
+}
+.btn-main:disabled{
+    background-color: #032444;
+    color: #FFFFFF;
+    border: none;
+    cursor: no-drop;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 .bg-pry{
     background-color: rgb(24 24 27);
@@ -24,8 +53,29 @@
     border-color: #ffffff1a !important;
 }
 
+/*** Definições de formulário ***/
+input.form-control:focus{
+    box-shadow: none;
+    background-color: rgb(24 24 27);
+    color: #EAEAEA;
+}
+input.form-control:focus,
+input.form-check-input:focus{
+    border-color: #18B4FF !important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+input.form-control::placeholder{
+    color: #55595c;
+}
+input.form-check-input:checked{
+    background-color: #0A84FF;
+}
 
 body{
     width: 100vw;
     height: 100vh;
+}
+
+.contaner-auth{
+    min-width: 40%;
 }
