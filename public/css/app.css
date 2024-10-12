@@ -1,0 +1,31 @@
+:root{
+    --color-main: "#0A84FF";
+    --color-secondary-01: "#18B4FF";
+    --color-secondary-02: "#4831D4";
+    --color-bg: "#0A1A2F";
+    --color-text-01: "#EAEAEA";
+    --color-text-02: "#D1D9E6";
+    --color-bs-01: '#001B44';
+    --color-bs-02: '#0D2136';
+}
+
+/* Definições */
+.text-color-main{
+    color: #0A84FF;
+}
+.bg-pry{
+    background-color: rgb(24 24 27);
+}
+.bg-sec{
+    background-color: #27272a;
+}
+
+.border-color{
+    border-color: #ffffff1a !important;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
