@@ -77,5 +77,33 @@ body{
 }
 
 .contaner-auth{
+    max-width: 350px;
     min-width: 40%;
+}
+
+.nav-btn.active{
+    background-color: #0A84FF;
+    color: #FFFFFF;
+    border-color: transparent;
+    pointer-events: none;
+}
+.nav-btn:hover:not(.active){
+    background-color: #ffffff1a;
+    color: #EAEAEA;
+    border-color: transparent;
+}
+.nav-btn:focus-visible:not(.active),
+.nav-btn:active:not(.active){
+    background-color: #033970 !important;
+    color: #EAEAEA !important;
+    border-color: transparent !important;
+}
+
+.wrapper-auth{
+    width: 100%;
+
+    overflow: hidden;
+}
+.wrapper-auth > *{
+    min-width: 100%;
 }
