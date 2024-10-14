@@ -1,4 +1,4 @@
-<div class="w-100 px-2" id="login">
+<div class="w-100 h-100 px-2 d-flex justify-content-center flex-column" id="login">
     <div class="title-wecome w-100 mb-3">
         <div class="d-flex justify-content-center">
             <h3 class="fs-4 fw-light text-color-2">Bem vindo de volta</h3>
@@ -26,7 +26,7 @@
             </label>
         </div>
         <div class="mt-4 mb-3 w-100">
-            <button class="w-100 btn btn-main" type="submit">Login</button>
+            <button class="w-100 btn btn-main" type="submit">Entrar</button>
         </div>
     </form>
 </div>

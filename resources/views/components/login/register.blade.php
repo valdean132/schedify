@@ -1,4 +1,4 @@
-<div class="w-100 px-2" id="register">
+<div class="w-100 h-100 px-2" id="register">
     <div class="title-wecome w-100 mb-2">
         <div class="d-flex justify-content-center">
             <h3 class="fs-4 fw-light text-color-2">Faça Seu registro</h3>
