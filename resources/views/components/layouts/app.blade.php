@@ -13,16 +13,23 @@
     <!-- Styles -->
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 </head>
-<body class="bg-pry">
+<body class="bg-pry w-100 min-vh-100 d-flex">
+
+    @if (Request::segment(1) == 'app')
+        <x-ui.siderbar active="{{ Request::segment(2) }}" />
+    @endif
+
     {{ $slot }}
 
-    <!-- Bootstrap JS -->
-    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    {{-- AlpineJs --}}
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"></script>
+    @persist('scripts')
+        <!-- Bootstrap JS -->
+        <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+        {{-- AlpineJs --}}
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"></script>
 
-    {{-- Scripts --}}
-    <script src="{{ asset('js/app.js') }}" defer></script>
+        {{-- Scripts --}}
+        <script src="{{ asset('js/app.js') }}" defer></script>
+    @endpersist
 </body>
 </html>

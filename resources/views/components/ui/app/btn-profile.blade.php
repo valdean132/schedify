@@ -1,4 +1,4 @@
-<a href="profile" class="profile d-flex align-items-center border border-color rounded-3 p-2 text-decoration-none tr-1" data-bs-toggle="tooltip" data-bs-title="Acesse seu perfil" data-bs-placement="bottom">
+<a wire:navigate href="/app/profile" class="profile d-flex align-items-center border border-color rounded-3 p-2 text-decoration-none tr-1" data-bs-toggle="tooltip" data-bs-title="Acesse seu perfil" data-bs-placement="bottom">
     <div class="d-flex justify-content-center align-items-center rounded-2 p-2 bg-sec">
         <x-phosphor-user width="25" class="text-color-2 " />
     </div>
