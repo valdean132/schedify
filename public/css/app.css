@@ -10,6 +10,12 @@
 }
 
 /*? Definições */
+.fs-7{
+    font-size: .9rem !important;
+}
+.fs-8{
+    font-size: .8rem !important;
+}
 .text-color-main{
     color: #0A84FF;
 }
@@ -47,6 +53,10 @@
 }
 .bg-sec{
     background-color: #27272a;
+}
+
+.tr-1{
+    transition: all ease-in .2s;
 }
 
 .border-color{
@@ -106,4 +116,33 @@ body{
 }
 .wrapper-auth > *{
     min-width: 100%;
+}
+
+
+
+.siderbar{
+    width: 16rem;
+}
+.siderbar nav a{
+    height: 2.5rem;
+
+    border-color: transparent !important;
+}
+.siderbar nav a:hover,
+.logout a:hover{
+    background-color: #27272a;
+    color: #FFFFFF;
+    
+}
+.logout:hover{
+    border-color: transparent !important;
+}
+.siderbar nav a.active{
+    background-color: #27272a;
+    color: #FFFFFF;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-color: #ffffff1a !important;
+}
+.profile:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }

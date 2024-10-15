@@ -1,4 +1,4 @@
-<div class="w-100 d-flex justify-content-center align-items-center mb-3">
-    <img src="{{ asset('images/logo.png') }}" alt="logo" width="40">
-    <h2 class="ms-2 mb-0 fs-2 text-color-1 fw-normal">Schedify.</h2>
-</div>
+<a href="{{ $href }}" class="w-100 d-flex text-decoration-none {{ $class }}">
+    <img src="{{ asset('images/logo.png') }}" alt="logo" width="{{ $size }}" height="{{ $size }}">
+    <h2 class="ms-2 mb-0 text-color-1 fw-normal fs-{{ $fs }}">Schedify.</h2>
+</a>
