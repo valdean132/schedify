@@ -1,0 +1,71 @@
+/*? Definições */
+
+/* Font-Size */
+.fs-7{
+    font-size: .9rem !important;
+}
+.fs-8{
+    font-size: .8rem !important;
+}
+.fs-9{
+    font-size: .7rem !important;
+}
+
+/* Botões */
+.btn-main{
+    background-color: #0A84FF;
+    color: #EAEAEA;
+}
+.btn-main:hover,
+.btn-main:focus-visible,
+.btn-main:active{
+    background-color: #0769ca !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-color: transparent !important;
+}
+.btn-main:focus-visible,
+.btn-main:active{
+    background-color: #033970 !important;
+}
+.btn-main:disabled{
+    background-color: #032444;
+    color: #FFFFFF;
+    border: none;
+    cursor: no-drop;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+/* Transições */
+.tr-1{
+    transition: all ease-in .2s;
+}
+
+/* Bordas */
+.border-color{
+    border-color: #ffffff1a !important;
+}
+.border-dashed{
+    --bs-border-style: dashed;
+}
+.border-solid{
+    --bs-border-style: solid;
+}
+
+/*** Definições de formulário ***/
+input.form-control:focus{
+    box-shadow: none;
+    background-color: rgb(24 24 27);
+    color: #EAEAEA;
+}
+input.form-control:focus,
+input.form-check-input:focus{
+    border-color: #18B4FF !important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+input.form-control::placeholder{
+    color: #55595c;
+}
+input.form-check-input:checked{
+    background-color: #0A84FF;
+}

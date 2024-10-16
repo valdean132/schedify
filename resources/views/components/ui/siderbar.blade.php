@@ -1,8 +1,8 @@
 <div class="siderbar px-3 py-4 d-flex flex-column gap-4 h-100">
     <x-ui.logo href="/app" class="align-items-center ps-2" fs="4" size="30" />
     
-    <x-ui.app.btn-profile />
-    
+    <x-ui.app.add-tasks />
+
     <x-ui.app.nav>
         <x-ui.app.btn-nav href="/app" active="{{ $active == '' ? true : false }}" >
             <x-phosphor-house-thin class="text-color-1" width="20" />
@@ -30,9 +30,12 @@
 
         <x-ui.app.btn-nav href="/app/help" active="{{ $active == 'help' ? true : false }}" >
             <x-phosphor-info class="text-color-1" width="20" />
-            <p class="m-0 flex-fill">Help</p>
+            <p class="m-0 flex-fill">Ajuda</p>
         </x-ui.app.btn-nav>
     </x-ui.app.nav>
 
+    <x-ui.app.btn-profile />
+
     <x-ui.logout />
+
 </div>
