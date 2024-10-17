@@ -3,6 +3,21 @@ body{
     height: 100vh;
 }
 
+::-webkit-scrollbar{
+    height: 6px;
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(24 24 27);
+
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #0A84FF;
+    border-radius: 10px;
+
+}
+
 .contaner-auth{
     max-width: 350px;
     min-width: 40%;
