@@ -96,6 +96,11 @@ body{
     min-width: 225px;
     width: calc(100% / 3);
 }
-.single-task:hover{
-    border-color: #ffffff44 !important;
+body:not(.sorting) .single-task:hover{
+    border-color: #0A84FF !important;
+}
+
+.group-tasks .limit-w{
+    width: 210px;
+    flex-basis: 210px;
 }
