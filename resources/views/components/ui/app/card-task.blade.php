@@ -1,4 +1,8 @@
-<div class="position-relative {{ $class ?? '' }}">
+<div class="position-relative {{ $class ?? '' }}" 
+    data-bs-toggle="tooltip" 
+    data-bs-title="Acesse: Um titulo de emproviso um teste" 
+    data-bs-placement="bottom"
+>
     <div class="single-task p-3 bg-sec border border-solid border-color rounded-3 shadow user-select-none tr-1">
         <a href="" class="position-absolute top-0 start-0 w-100 h-100"></a>
         <div class="w-100">

@@ -21,7 +21,11 @@
         <x-ui.siderbar active="{{ Request::segment(2) }}" />
     @endif
 
-    {{ $slot }}
+    <main class="p-2">
+        <x-ui.header />
+        
+        {{ $slot }}
+    </main>
 
     @persist('scripts')
         <!-- Bootstrap JS -->

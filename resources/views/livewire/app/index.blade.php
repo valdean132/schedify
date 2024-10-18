@@ -1,4 +1,4 @@
-<div class="main-content d-flex flex-column bg-sec rounded-3 m-2 p-4">
+<div class="main-content d-flex flex-column bg-sec rounded-3 p-4">
     <x-ui.app.title-page title="Tarefas do Dia" subtitle="# 7 tarefas" />
 
     <div class="w-100 flex-fill d-flex gap-3 overflow-x-auto pb-2">
