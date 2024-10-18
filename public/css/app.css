@@ -18,6 +18,21 @@ body{
 
 }
 
+/* .sorting *{
+    cursor: grabbing !important;
+} */
+.sortable-drag{
+    cursor: grabbing !important;
+}
+.sortable-ghost .single-task{
+    background-color: #39393d !important;
+}
+.sortable-ghost *{
+    background-color: transparent !important;
+    color: transparent !important;
+    border-color: transparent !important;
+}
+
 .contaner-auth{
     max-width: 350px;
     min-width: 40%;

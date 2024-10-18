@@ -6,7 +6,7 @@
     >
         <h5 class="fs-7 text-center text-color-1 m-0">{{ $title }}</h5>
     </div>
-    <div class="list-single-tasks w-100 mt-3 flex-fill">
+    <div class="list-single-tasks w-100 mt-3 flex-fill" x-sort.ghost x-sort:group="{{ $group }}">
         {{ $slot }}
     </div>
 </div>
