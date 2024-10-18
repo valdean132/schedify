@@ -17,14 +17,8 @@ body{
     border-radius: 10px;
 
 }
-
-/* .sorting *{
-    cursor: grabbing !important;
-} */
-.sortable-drag{
-    cursor: grabbing !important;
-}
 .sortable-ghost .single-task{
+    cursor: grabbing !important;
     background-color: #39393d !important;
 }
 .sortable-ghost *{
