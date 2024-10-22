@@ -12,3 +12,4 @@ Route::get('/app/calendar', [AppController::class, 'calendar'])->name('app.calen
 Route::get('/app/settings', [AppController::class, 'settings'])->name('app.settings');
 Route::get('/app/help', [AppController::class, 'help'])->name('app.help');
 Route::get('/app/profile', [AppController::class, 'profile'])->name('app.profile');
+Route::get('/app/task/{id}', [AppController::class, 'task'])->name('app.task');

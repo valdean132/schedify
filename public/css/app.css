@@ -88,6 +88,11 @@ body{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
+
+.input-task input.form-control::placeholder{
+    color: rgb(108, 117, 125);
+}
+
 main{
     width: calc(100% - 16rem);
 }
@@ -107,6 +112,15 @@ body:not(.sorting) .single-task:hover{
     width: 180px;
     flex-basis: 180px;
 }
+
+.btn-option:hover,
+.btn-option:focus{
+    background-color: #39393d;
+    color: #EAEAEA;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+
 
 
 

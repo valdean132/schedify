@@ -22,7 +22,10 @@
     @endif
 
     <main class="p-2">
-        <x-ui.header />
+        @if (Request::segment(1) == 'app')
+            <x-ui.app.modal-add-task />
+            <x-ui.header />
+        @endif
         
         {{ $slot }}
     </main>
