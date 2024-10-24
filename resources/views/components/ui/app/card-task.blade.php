@@ -4,7 +4,7 @@
     data-bs-placement="bottom"
 >
     <div class="single-task p-3 bg-sec border border-solid border-color rounded-3 shadow user-select-none tr-1">
-        <a href="" class="position-absolute top-0 start-0 w-100 h-100"></a>
+        <a href="/app/task/id" wire:navigate class="position-absolute top-0 start-0 w-100 h-100"></a>
         <div class="w-100">
             <div class="d-flex align-items-center justify-content-between mb-2">
                 <div class="priority py-1 px-2 rounded-4 bd-green-300">

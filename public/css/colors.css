@@ -13,6 +13,9 @@
 .text-color-main{
     color: #0A84FF;
 }
+.text-color-sec{
+    color: #18B4FF;
+}
 .text-color-1{
     color: #EAEAEA;
 }
@@ -44,6 +47,9 @@
 }
 .bg-sec{
     background-color: #27272a;
+}
+.bg-ter{
+    background-color: #2e2e31;
 }
 
 /* Tons de Amarelo */
