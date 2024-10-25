@@ -120,6 +120,12 @@ body:not(.sorting) .single-task:hover{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
+.btn-comment:hover{
+    background-color: #39393d;
+    color: #EAEAEA;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
 
 
 

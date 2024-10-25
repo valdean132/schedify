@@ -15,7 +15,7 @@
     </div>
 
     <div class="w-100 flex-fill d-flex overflow-y-auto position-relative">
-        <div class="w-100 p-4 py-3 overflow-y-auto text-color-1 mt-5">
+        <div class="w-100 px-4 pt-3 overflow-y-auto text-color-1 mt-5">
             <form action="">
                 <div class="mb-3">
                     <div class="input-group input-task">
@@ -40,8 +40,24 @@
                     </div>
                 </div>
             </form>
-            <div class="w-100 mt-5">
-                
+            <div class="w-100 mt-4 border-top border-color">
+                <div class="w-100 py-2 ps-2 border-bottom border-color d-flex gap-1 align-items-center">
+                    <span class="text-color-2 lh-1"><x-fluentui-chevron-right-24-o width="20" /></span>
+                    <h4 class="fs-7 text-color-2 fw-medium mb-0">Comentários&nbsp;<span class="text-color-3 fw-normal">3</span></h4>
+                </div>
+                <div class="w-100 pt-2">
+                    <div class="text-color-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum obcaecati ab, odit impedit qui perferendis expedita totam dignissimos ipsum reprehenderit error adipisci quas nihil fugit cumque autem quidem distinctio.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illum obcaecati ab, odit impedit qui perferendis expedita totam dignissimos ipsum reprehenderit error adipisci quas nihil fugit cumque autem quidem distinctio.
+                        
+
+                    </div>
+                    <div class="w-100 bg-sec position-sticky bottom-0 pb-3 pt-1">
+                        <button class="btn-comment btn w-100 bg-sec d-flex justify-content-between fs-8 border border-color text-color-3 px-3">
+                            Comentar <x-fluentui-comment-multiple-24-o width="20" />
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="w-100 position-absolute top-0 start-0 bg-ter p-4 py-2 border-bottom border-color d-flex gap-2">
