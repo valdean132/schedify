@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="{{ url('images/logo.png') }}">
+    <link rel="icon" href="{{ url('images/logo.ico') }}">
 
     <title>{{ $title ?? 'Schedify' }}</title>
     
@@ -21,17 +21,31 @@
         <x-ui.siderbar active="{{ Request::segment(2) }}" />
     @endif
 
-    {{ $slot }}
+    <main class="p-2">
+        @if (Request::segment(1) == 'app')
+            <x-ui.app.modal.add-task />
+            <x-ui.app.modal.remove />
+            <x-ui.header />
+        @endif
+        
+        {{ $slot }}
+    </main>
 
     @persist('scripts')
         <!-- Bootstrap JS -->
         <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
         <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-        {{-- AlpineJs --}}
-        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"></script>
 
+        {{-- AlpineJs --}}
+        <!-- Alpine Plugins -->
+        <script defer src="{{ asset('js/sort-3.14.3.js') }}"></script>
+        <!-- Alpine Core -->
+        {{-- <script defer src="{{ asset('js/alpinejs-3.14.3.js') }}"></script> --}}
+    
         {{-- Scripts --}}
         <script src="{{ asset('js/app.js') }}" defer></script>
     @endpersist
+    
+
 </body>
 </html>

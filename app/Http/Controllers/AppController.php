@@ -30,4 +30,8 @@ class AppController extends Controller
     public function profile(){
         return view('app.profile');
     }
+
+    public function task(){
+        return view('app.task');
+    }
 }

@@ -41,6 +41,11 @@
     transition: all ease-in .2s;
 }
 
+/* Cursores */
+.cursor-pointer{
+    cursor: pointer;
+}
+
 /* Bordas */
 .border-color{
     border-color: #ffffff1a !important;
@@ -53,19 +58,29 @@
 }
 
 /*** Definições de formulário ***/
-input.form-control:focus{
+input.form-control:focus,
+textarea.form-control:focus,
+select.form-control:focus{
     box-shadow: none;
     background-color: rgb(24 24 27);
     color: #EAEAEA;
 }
 input.form-control:focus,
-input.form-check-input:focus{
+textarea.form-control:focus,
+input.form-check-input:focus,
+select.form-control:focus{
     border-color: #18B4FF !important;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
-input.form-control::placeholder{
+input.form-control::placeholder,
+textarea.form-control::placeholder{
     color: #55595c;
 }
 input.form-check-input:checked{
     background-color: #0A84FF;
+}
+textarea.form-control{
+    resize: none;
+    field-sizing: content;
+    max-height: 250px;
 }
