@@ -34,6 +34,12 @@
 .text-green-900 {
     color: #051b11;
 }
+.text-red-300 {
+    color: #ea868f;
+}
+.text-red-700 {
+    color: #842029;
+}
 
 /* Cor de fundo */
 .bg-main{
@@ -79,10 +85,8 @@
     background-color: #a3cfbb;
 }
 .bd-green-300 {
-    color: #000;
     background-color: #75b798;
 }
 .bd-green-500 {
-    color: #fff;
     background-color: #198754;
 }

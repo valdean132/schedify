@@ -41,6 +41,11 @@
     transition: all ease-in .2s;
 }
 
+/* Cursores */
+.cursor-pointer{
+    cursor: pointer;
+}
+
 /* Bordas */
 .border-color{
     border-color: #ffffff1a !important;

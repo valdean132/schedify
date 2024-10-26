@@ -120,12 +120,42 @@ body:not(.sorting) .single-task:hover{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
-.btn-comment:hover{
+textarea.input-comments{
+    max-height: fit-content;
+}
+textarea.input-comments:focus{
+    background-color: transparent;
+}
+
+.collapsed.btn-comments span{
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+.btn-comment:hover,
+.btn-options:hover,
+.btn-options.show{
     background-color: #39393d;
     color: #EAEAEA;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
+.remove:hover{
+    background-color: #ea868f;
+    color: #842029;
+}
 
+.comment-single{
+    border-color: transparent !important;
+}
+.comment-single:hover{
+    border-color: #ffffff1a !important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.file-single:hover button{
+    opacity: 1 !important;
+    background-color: #39393d90;
+}
 
 
 
