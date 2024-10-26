@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="{{ url('images/logo.png') }}">
+    <link rel="icon" href="{{ url('images/logo.ico') }}">
 
     <title>{{ $title ?? 'Schedify' }}</title>
     
@@ -23,7 +23,8 @@
 
     <main class="p-2">
         @if (Request::segment(1) == 'app')
-            <x-ui.app.modal-add-task />
+            <x-ui.app.modal.add-task />
+            <x-ui.app.modal.remove />
             <x-ui.header />
         @endif
         

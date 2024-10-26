@@ -14,10 +14,30 @@
                         aria-expanded="false"
                     ><x-phosphor-dots-three-outline-light width="20" /></button>
                     <ul class="dropdown-menu bg-sec shadow border border-color p-2">
-                        <li><button type="button" class="dropdown-item btn-option bg-sec rounded-2 tr-1 text-color-2 px-2"><x-fluentui-text-bullet-list-square-edit-20-o width="20" class="lh-1" />&nbsp;Editar</button></li>
-                        <li><button type="button" class="dropdown-item btn-option bg-sec rounded-2 tr-1 text-color-2 px-2"><x-fluentui-copy-20-o width="20" class="lh-1" />&nbsp;Copiar texto</button></li>
+                        <li>
+                            <button type="button" 
+                                class="dropdown-item btn-option bg-sec rounded-2 tr-1 text-color-2 px-2"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalComment"
+                            >
+                                <x-fluentui-text-bullet-list-square-edit-20-o width="20" class="lh-1" />&nbsp;Editar
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="dropdown-item btn-option bg-sec rounded-2 tr-1 text-color-2 px-2">
+                                <x-fluentui-copy-20-o width="20" class="lh-1" />&nbsp;Copiar texto
+                            </button>
+                        </li>
                         <li class="dropdown-divider border-color"></li>
-                        <li><button type="button" class="dropdown-item btn-option bg-sec rounded-2 tr-1 text-red-300 px-2 remove"><x-fluentui-delete-20-o width="20" class="lh-1" />&nbsp;Excluir</button></li>
+                        <li>
+                            <button type="button" 
+                                class="dropdown-item btn-option bg-sec rounded-2 tr-1 text-red-300 px-2 remove"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalRemove"
+                            >
+                                <x-fluentui-delete-20-o width="20" class="lh-1" />&nbsp;Excluir
+                            </button>
+                        </li>
                     </ul>
                 </div>
             </div>

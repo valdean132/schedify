@@ -7,15 +7,15 @@
         <a href="/app/task/id" wire:navigate class="position-absolute top-0 start-0 w-100 h-100"></a>
         <div class="w-100">
             <div class="d-flex align-items-center justify-content-between mb-2">
-                <div class="priority py-1 px-2 rounded-4 bd-green-300">
+                <div class="priority py-1 px-2 rounded-4 bg-green-300">
                     <p class="m-0 fs-9 text-green-900">Prioridade baixa</p>
                 </div>
                 {{-- 
-                    <div class="priority py-1 px-2 rounded-4 bd-yellow-200">
+                    <div class="priority py-1 px-2 rounded-4 bg-yellow-200">
                         <p class="m-0 fs-9 text-yellow-900">Prioridade média</p>
                     </div>
 
-                    <div class="priority py-1 px-2 rounded-4 bd-red-300">
+                    <div class="priority py-1 px-2 rounded-4 bg-red-300">
                         <p class="m-0 fs-9 text-red-900">Prioridade alta</p>
                     </div>
                 --}}

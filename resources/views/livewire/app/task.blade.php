@@ -147,7 +147,10 @@
                         <x-ui.app.comment />
                     </div>
                     <div class="w-100 bg-sec position-sticky bottom-0 pb-3 pt-1">
-                        <button class="btn-comment btn w-100 bg-sec d-flex justify-content-between fs-8 border border-color text-color-3 px-3">
+                        <button class="btn-comment btn w-100 bg-sec d-flex justify-content-between fs-8 border border-color text-color-3 px-3"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalComment"
+                        >
                             Comentar <x-fluentui-comment-multiple-24-o width="20" />
                         </button>
                     </div>
@@ -155,6 +158,8 @@
             </div>
         </div>
     </div>
+
+    <x-ui.app.modal.comments />
 </div>
 
 

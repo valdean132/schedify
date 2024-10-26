@@ -62,31 +62,37 @@
 }
 
 /* Tons de Amarelo */
-.bd-yellow-200 {
+.bg-yellow-200 {
     background-color: #ffe69c;
 }
-.bd-yellow-300 {
+.bg-yellow-300 {
     background-color: #ffda6a;
 }
-.bd-yellow-900 {
+.bg-yellow-900 {
     background-color: #332701;
 }
 
 /* Tons de Vermelho */
-.bd-red-200 {
+.bg-red-200 {
     background-color: #f1aeb5;
 }
-.bd-red-300 {
+.bg-red-300 {
     background-color: #ea868f;
+}
+.bg-red-500 {
+    background-color: #dc3545;
+}
+.bg-red-700 {
+    background-color: #842029;
 }
 
 /* Tons de Verde */
-.bd-green-200 {
+.bg-green-200 {
     background-color: #a3cfbb;
 }
-.bd-green-300 {
+.bg-green-300 {
     background-color: #75b798;
 }
-.bd-green-500 {
+.bg-green-500 {
     background-color: #198754;
 }
